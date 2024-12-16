@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ### Step 4: Download the Model File
 
-Download the pre-trained `model.h5` file and place it in the project directory.
+Download the pre-trained [model.h5](https://drive.google.com/drive/folders/1siPKe3pmQdBkYxD42_8-qlL19Qh1XSHV?usp=sharing) file from this link, and place it in the project directory.
 
 ---
 
