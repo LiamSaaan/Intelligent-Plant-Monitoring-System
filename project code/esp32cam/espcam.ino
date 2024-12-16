@@ -1,10 +1,10 @@
 
 
 // Enter your WiFi ssid and password
-const char* ssid     = "Redmi 9";   //your network SSID
-const char* password = "yaro55051";   //your network password
+const char* ssid     = "";   //your network SSID
+const char* password = "";   //your network password
 
-String myScript = "/macros/s/AKfycbwPXF4V2Oc3saBGpTY0XxEfUEXMwhfLw86tBWtTwMAC4ZXWZwFtmlfVFiCBWSVdqZ3_/exec";    //Create your Google Apps Script and replace the "myScript" path.
+String myScript = "/macros/s/{replace with link ID}/exec";    //Create your Google Apps Script and replace the "myScript" path.
 String myLineNotifyToken = "myToken=**********";    //Line Notify Token. You can set the value of xxxxxxxxxx empty if you don't want to send picture to Linenotify.
 String myFoldername = "&myFoldername=ESP32-CAM";
 String myFilename = "&myFilename=ESP32-CAM.jpg";
