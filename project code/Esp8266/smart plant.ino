@@ -11,8 +11,8 @@ SCL -> GPIO22
 */
 
 
-#define BLYNK_TEMPLATE_ID "TMPL2dK-cKUAg"
-#define BLYNK_TEMPLATE_NAME "Smart plant"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
 
 #include <LiquidCrystal_I2C.h>
 #include <DHT.h>
@@ -24,9 +24,9 @@ SCL -> GPIO22
 LiquidCrystal_I2C lcd(0x3F, 16, 2);
 
 
-char auth[] = "JD4RsZe7iYN6voD_2OCEpE7w1B2gHx-H";  // Enter your Blynk Auth token
-char ssid[] = "Redmi 9";  // Enter your Wi-Fi SSID
-char pass[] = "yaro55051";  // Enter your Wi-Fi Password
+char auth[] = "";  // Enter your Blynk Auth token
+char ssid[] = "";  // Enter your Wi-Fi SSID
+char pass[] = "";  // Enter your Wi-Fi Password
 
 BlynkTimer timer;
 
